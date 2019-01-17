@@ -277,7 +277,7 @@ namespace SharpKeys
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(379, 17);
             this.label1.TabIndex = 9;
-            this.label1.Text = "SharpKeys 3.7.0 - Copyright 2004 - 2018 RandyRants.com";
+            this.label1.Text = "SharpKeys 3.9.0 - Copyright 2004 - 2019 RandyRants.com";
             // 
             // label2
             // 
@@ -945,15 +945,15 @@ namespace SharpKeys
             m_hashKeys.Add("00_64", "Function: F13");
             m_hashKeys.Add("00_65", "Function: F14");
             m_hashKeys.Add("00_66", "Function: F15");
-            m_hashKeys.Add("00_67", "Function: F16"); // Mac keyboard
-            m_hashKeys.Add("00_68", "Function: F17"); // Mac keyboard
-            m_hashKeys.Add("00_69", "Function: F18"); // Mac keyboard
-            m_hashKeys.Add("00_6A", "Function: F19"); // Mac keyboard
-            m_hashKeys.Add("00_6B", "Function: F20"); // IBM Model F 122-keys
-            m_hashKeys.Add("00_6C", "Function: F21"); // IBM Model F 122-keys
-            m_hashKeys.Add("00_6D", "Function: F22"); // IBM Model F 122-keys
-            m_hashKeys.Add("00_6E", "Function: F23"); // IBM Model F 122-keys
-            m_hashKeys.Add("00_6F", "Function: F24"); // IBM Model F 122-keys
+            m_hashKeys.Add("00_67", "Function: F16");   // Mac keyboard 
+            m_hashKeys.Add("00_68", "Function: F17");   // Mac keyboard
+            m_hashKeys.Add("00_69", "Function: F18");   // Mac keyboard
+            m_hashKeys.Add("00_6A", "Function: F19");   // Mac keyboard
+            m_hashKeys.Add("00_6B", "Function: F20");   // IBM Model F 122-keys
+            m_hashKeys.Add("00_6C", "Function: F21");   // IBM Model F 122-keys
+            m_hashKeys.Add("00_6D", "Function: F22");   // IBM Model F 122-keys
+            m_hashKeys.Add("00_6E", "Function: F23");   // IBM Model F 122-keys
+            m_hashKeys.Add("00_6F", "Function: F24");   // IBM Model F 122-keys
 
             m_hashKeys.Add("00_70", "Unknown: 0x0070");
             m_hashKeys.Add("00_71", "Unknown: 0x0071");
@@ -978,8 +978,8 @@ namespace SharpKeys
             m_hashKeys.Add("E0_04", "Unknown: 0xE004");
             m_hashKeys.Add("E0_05", "Unknown: 0xE005");
             m_hashKeys.Add("E0_06", "Unknown: 0xE006");
-            m_hashKeys.Add("E0_07", "F-Lock: Redo");        //   F3 - Redo
-            m_hashKeys.Add("E0_08", "F-Lock: Undo"); //   F2 - Undo
+            m_hashKeys.Add("E0_07", "F-Lock: Redo");
+            m_hashKeys.Add("E0_08", "F-Lock: Undo");
             m_hashKeys.Add("E0_09", "Unknown: 0xE009");
             m_hashKeys.Add("E0_0A", "Unknown: 0xE00A");
             m_hashKeys.Add("E0_0B", "Unknown: 0xE00B");
@@ -1008,14 +1008,13 @@ namespace SharpKeys
             m_hashKeys.Add("E0_20", "Media: Mute");
             m_hashKeys.Add("E0_21", "App: Calculator");
             m_hashKeys.Add("E0_22", "Media: Play/Pause");
-            m_hashKeys.Add("E0_23", "F-Lock: Spell");       //   F10
+            m_hashKeys.Add("E0_23", "F-Lock: Spell");
             m_hashKeys.Add("E0_24", "Media: Stop");
             m_hashKeys.Add("E0_25", "Unknown: 0xE025");
             m_hashKeys.Add("E0_26", "Unknown: 0xE026");
             m_hashKeys.Add("E0_27", "Unknown: 0xE027");
             m_hashKeys.Add("E0_28", "Unknown: 0xE028");
             m_hashKeys.Add("E0_29", "Unknown: 0xE029");
-            // m_hashKeys.Add("E0_2A", "Special: PrtSc");   // removed due to conflict
             m_hashKeys.Add("E0_2B", "Unknown: 0xE02B");
             m_hashKeys.Add("E0_2C", "Unknown: 0xE02C");
             m_hashKeys.Add("E0_2D", "Unknown: 0xE02D");
@@ -1034,19 +1033,19 @@ namespace SharpKeys
             m_hashKeys.Add("E0_2038", "Special: Alt Gr");
             m_hashKeys.Add("E0_39", "Unknown: 0xE039");
             m_hashKeys.Add("E0_3A", "Unknown: 0xE03A");
-            m_hashKeys.Add("E0_3B", "F-Lock: Help");        //   F1
-            m_hashKeys.Add("E0_3C", "F-Lock: Office Home"); //   F2 - Office Home
-            m_hashKeys.Add("E0_3D", "F-Lock: Task Pane");   //   F3 - Task pane
-            m_hashKeys.Add("E0_3E", "F-Lock: New");         //   F4
-            m_hashKeys.Add("E0_3F", "F-Lock: Open");        //   F5
+            m_hashKeys.Add("E0_3B", "F-Lock: Help");        
+            m_hashKeys.Add("E0_3C", "F-Lock: Office Home"); 
+            m_hashKeys.Add("E0_3D", "F-Lock: Task Pane");   
+            m_hashKeys.Add("E0_3E", "F-Lock: New");         
+            m_hashKeys.Add("E0_3F", "F-Lock: Open");        
 
-            m_hashKeys.Add("E0_40", "F-Lock: Close");       //   F6
-            m_hashKeys.Add("E0_41", "F-Lock: Reply");       //   F7
-            m_hashKeys.Add("E0_42", "F-Lock: Fwd");         //   F8
-            m_hashKeys.Add("E0_43", "F-Lock: Send");        //   F9
+            m_hashKeys.Add("E0_40", "F-Lock: Close");       
+            m_hashKeys.Add("E0_41", "F-Lock: Reply");       
+            m_hashKeys.Add("E0_42", "F-Lock: Fwd");         
+            m_hashKeys.Add("E0_43", "F-Lock: Send");        
             m_hashKeys.Add("E0_44", "Unknown: 0xE044");
-            m_hashKeys.Add("E0_45", "Special: €");        //   Euro
-            m_hashKeys.Add("E0_46", "Unknown: 0xE046");
+            m_hashKeys.Add("E0_45", "Special: €"); 
+            m_hashKeys.Add("E0_46", "Special: Break");
             m_hashKeys.Add("E0_47", "Special: Home");
             m_hashKeys.Add("E0_48", "Arrow: Up");
             m_hashKeys.Add("E0_49", "Special: Page Up");
@@ -1064,8 +1063,8 @@ namespace SharpKeys
             m_hashKeys.Add("E0_54", "Unknown: 0xE054");
             m_hashKeys.Add("E0_55", "Unknown: 0xE055");
             m_hashKeys.Add("E0_56", "Special: < > |");
-            m_hashKeys.Add("E0_57", "F-Lock: Save");        //   F11
-            m_hashKeys.Add("E0_58", "F-Lock: Print");       //   F12
+            m_hashKeys.Add("E0_57", "F-Lock: Save");
+            m_hashKeys.Add("E0_58", "F-Lock: Print");
             m_hashKeys.Add("E0_59", "Unknown: 0xE059");
             m_hashKeys.Add("E0_5A", "Unknown: 0xE05A");
             m_hashKeys.Add("E0_5B", "Special: Left Windows");
@@ -1074,6 +1073,7 @@ namespace SharpKeys
             m_hashKeys.Add("E0_5E", "Special: Power");
             m_hashKeys.Add("E0_5F", "Special: Sleep");
 
+            m_hashKeys.Add("E0_60", "Unknown: 0xE060");
             m_hashKeys.Add("E0_61", "Unknown: 0xE061");
             m_hashKeys.Add("E0_62", "Unknown: 0xE062");
             m_hashKeys.Add("E0_63", "Special: Wake (or Fn)");
@@ -1089,6 +1089,26 @@ namespace SharpKeys
             m_hashKeys.Add("E0_6D", "App: Media Select");
             m_hashKeys.Add("E0_6E", "Unknown: 0xE06E");
             m_hashKeys.Add("E0_6F", "Unknown: 0xE06F");
+            
+            m_hashKeys.Add("E0_70", "Unknown: 0xE070");
+            m_hashKeys.Add("E0_71", "Unknown: 0xE071");
+            m_hashKeys.Add("E0_72", "Unknown: 0xE072");
+            m_hashKeys.Add("E0_73", "Unknown: 0xE073");
+            m_hashKeys.Add("E0_74", "Unknown: 0xE074");
+            m_hashKeys.Add("E0_75", "Unknown: 0xE075");
+            m_hashKeys.Add("E0_76", "Unknown: 0xE076");
+            m_hashKeys.Add("E0_77", "Unknown: 0xE077");
+            m_hashKeys.Add("E0_78", "Unknown: 0xE078");
+            m_hashKeys.Add("E0_79", "Unknown: 0xE079");
+            m_hashKeys.Add("E0_7A", "Unknown: 0xE07A");
+            m_hashKeys.Add("E0_7B", "Unknown: 0xE07B");
+            m_hashKeys.Add("E0_7C", "Unknown: 0xE07C");
+            m_hashKeys.Add("E0_7D", "Unknown: 0xE07D");
+            m_hashKeys.Add("E0_7E", "Unknown: 0xE07E");
+            m_hashKeys.Add("E0_7F", "Unknown: 0xE07F");
+            
+            m_hashKeys.Add("E0_F1", "Special: Hanja Key");
+            m_hashKeys.Add("E0_F2", "Special: Hangul Key");
         }
 
 
